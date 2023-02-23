@@ -1,0 +1,86 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background: rgba(153, 153, 153, 0.384);
+    display: grid;
+    place-items: center;
+    padding:.5rem;
+}
+main{
+    max-width:600px;
+    padding:2rem;
+    height:97vh;
+    display:flex;
+    flex-direction: column;
+    gap:3rem;
+    background-color: white;
+    border-radius: 5rem;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    gap:.2rem;
+}
+.wrap{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:.4rem;
+}
+.operators{
+    display:flex;
+    flex-direction: column;
+    gap:.4rem;
+}
+
+button{
+    width:7rem;
+    height:7rem;
+    cursor: pointer;
+    font-size: 2.5rem;
+    background: rgba( 255, 255, 255, 0.45 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border-radius: 50%;
+}
+button:active{
+    background-color:rgba(56, 55, 55, 0.151);
+
+}
+#input1{
+    height:5rem;
+    width:100%;
+    border-radius: 2rem;
+    outline: none;
+    border: 1px solid rgb(107, 107, 107);
+    text-align: right;
+    font-size: 4rem;
+    padding:1rem;
+}
+
+.operator{
+    background-color: rgb(231, 152, 4);
+}
+.operator2{
+    background-color: rgba(128, 128, 128, 0.692);
+}
+.operator2:active{
+    background-color: rgba(128, 128, 128, 0.945);
+}
+.operator:active{
+    background-color: rgb(206, 136, 6);
+}
+@media screen and (max-width: 555px){
+    main{
+        padding:5rem 1rem;
+    }
+    button{
+        width:4.5rem;
+        height:4.5rem;
+    }
+}
