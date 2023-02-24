@@ -9,7 +9,7 @@ Simple calculator activity
 <br>
 
 
-<a href="https://rrobin-dc.github.io/Calculator/" target="_blank"><img src='https://github.com/robin-dc/Calculator/blob/main/preview.png'></a>
+<a href="https://robin-dc.github.io/Calculator/" target="_blank"><img src='https://github.com/robin-dc/Calculator/blob/main/preview.png'></a>
 
 <br>
 
